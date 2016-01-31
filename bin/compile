@@ -38,6 +38,6 @@ export LDFLAGS=-L$BUILD_DIR/$ZMQ_NAME/lib
 export CPPFLAGS=-I$BUILD_DIR/$ZMQ_NAME/include
 export CXXFLAGS+=$(CPPFLAGS)
 
-cd $BUILD_DIR/$ZMQ_NAME
-./configure --without-libsodium
-make
+#cd $BUILD_DIR/$ZMQ_NAME
+#./configure --without-libsodium
+#make
