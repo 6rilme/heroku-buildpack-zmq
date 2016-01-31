@@ -34,6 +34,6 @@ npecho "zeromq  unpacked in $BUILD_DIR/$ZMQ_NAME"
 
 npecho "setting zeromq compile flags"
 
-export LDFLAGS=-L$BUILD_DIR/$ZMQ_NAME/$ZMQ_NAME/lib
-export CPPFLAGS=-I$BUILD_DIR/$ZMQ_NAME/$ZMQ_NAME/include
-export CXX="`which g++` -I$BUILD_DIR/$ZMQ_NAME/$ZMQ_NAME/include"
+export LDFLAGS=-L$BUILD_DIR/$ZMQ_NAME/lib
+export CPPFLAGS=-I$BUILD_DIR/$ZMQ_NAME/include
+#export CXX="`which g++` -I$BUILD_DIR/$ZMQ_NAME/$ZMQ_NAME/include"
